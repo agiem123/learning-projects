@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(221, 221, 221);
+}
+.container{
+    height: 500px;
+    width: 800px;
+    display: flex;
+    margin-top: 50px;
+    margin: auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color:white ;
+}
+.form h2{
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin: 30px;
+    margin-bottom: 5%;
+}
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid white;
+    outline: none;   
+    background-color:rgb(239, 239, 239);
+}
+#submit{
+    padding: 12px;
+    width: 65%;
+    color: white;
+    background-color: rgb(5, 150, 107);
+    margin-top: 10px;
+    border: 1px solid white;
+}
+.form p{
+    margin-top: 20px;   
+}
+.icons{
+    position: relative;
+    padding: 10px;
+}
+#facebook{
+    color: rgb(59, 80, 161);
+    margin-right: 10px;
+}
+#google{
+    color: rgb(186, 83, 60);
+    margin-right: 10px;
+}
+#linkedin{
+    color: rgb(3, 116, 162);
+    margin-right: 10px;
+}
+.rightside{
+    width: 50%;
+    background: linear-gradient(rgb(42, 199, 144),rgb(10, 158, 110));
+    flex: 1;
+}
+.rightside h1{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: white;
+    margin-top: 30%;
+    margin-left: 80px;
+}
+.rightside p{
+    font-size: 19px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1;
+    margin-bottom: 10%;
+    padding: 25px;
+    text-align: justify;
+    min-height: 100px;
+}
+.rightside .signup{
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-top: 5%;
+    margin-left: 75px;
+    text-decoration: none;
+    background-color: rgb(13, 185, 129);
+    
+}
+
